@@ -48,7 +48,7 @@ class Odo extends StatelessWidget {
           displayBorderColor: displayBorderColor,
           displayColor: displayColor,
           displayBackgroundColor: displayBackgroundColor,
-          displayText: (rangeMinValue + (rangeMaxValue - rangeMinValue)*inputValue).toStringAsFixed(2),
+          displayText: (rangeMinValue + (rangeMaxValue - rangeMinValue)*inputValue).toString() + "%",
         ),
         Indicator(size: size*0.9,indicatorColor: indicatorColor, inputValue: inputValue),
       ],
